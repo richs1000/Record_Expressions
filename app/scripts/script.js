@@ -15,7 +15,7 @@ base.getRandomName = function(){
 var names=[["Dorsey"],["Trojan"],["Hortense"],["Chavous"],["Randa"],["Kemmer"],["Nelle"],["Vives"],["Kristie"],["Spang"],["Rickie"],["Whitehouse"],["Jay"],["Ells"],["Fredda"],["Nardi"],["Deandrea"],["Rosado"],["Eartha"],["Fusco"],["Michele"],["Beyer"],["Dacia"],["Mclennon"],["Lenard"],["Palumbo"],["Homer"],["Kron"],["Kris"],["Saragosa"],["Nia"],["Tompkins"],["Amos"],["Hargreaves"],["Lawana"],["Mangum"],["Danna"],["Raygoza"],["Mei"],["Junious"],["Megan"],["Membreno"],["Ignacio"],["Anguiano"],["Maureen"],["Beaudet"],["Livia"],["Heaney"],["Isela"],["Mikels"],["Magda"],["Maxton"],["Enrique"],["Kinley"],["Latina"],["Eifert"],["Felecia"],["Rodrique"],["Kazuko"],["Crean"]];
 var randint=this.getRandomInt(0,names.length);
 
-return names[randint];
+return '"'+names[randint]+'"';
 }
 
 base.getRandomNumb = function(){

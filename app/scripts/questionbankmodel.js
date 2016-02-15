@@ -198,7 +198,7 @@ QuestionBankModel.prototype.chooseQuestion = function() {
 	var fields=main.Field();
 	var randomField=main.randomField(fields);
 	
-	var qu="val ans= #"+randomField+" {"+fields[0]+"= "+'"'+a[0]+'"'+", "+fields[1]+"= "+'"'+a[1]+'"'+", "+fields[2]+"= "+'"'+a[2]+'"'+" }";
+	var qu="val ans= #"+randomField+" {"+fields[0]+"= "+a[0]+", "+fields[1]+"= "+a[1]+", "+fields[2]+"= "+a[2]+" }";
 	
 	this.answ=main.getField(randomField,a);
 
